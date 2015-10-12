@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false">
+    <item
+        android:drawable="@drawable/loading_1"
+        android:duration="160"/>
+    <item
+        android:drawable="@drawable/loading_2"
+        android:duration="170"/>
+    <item
+        android:drawable="@drawable/loading_3"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/loading_4"
+        android:duration="190"/>
+    <item
+        android:drawable="@drawable/loading_5"
+        android:duration="200"/>
+    <item
+        android:drawable="@drawable/loading_6"
+        android:duration="190"/>
+    <item
+        android:drawable="@drawable/loading_7"
+        android:duration="180"/>
+    <item
+        android:drawable="@drawable/loading_8"
+        android:duration="170"/>
+</animation-list>
+    <!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">-->
+    <!--<item-->
+    <!--android:id="@+id/bg"-->
+    <!--android:drawable="@mipmap/ic_pull_refresh0"></item>-->
+    <!--<item android:id="@+id/front">-->
+    <!--<clip-->
+    <!--android:clipOrientation="vertical"-->
+    <!--android:drawable="@mipmap/ic_pull_refresh1"-->
+    <!--android:gravity="top"/>-->
+    <!--</item>-->
+    <!--</layer-list>-->

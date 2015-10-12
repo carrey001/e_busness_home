@@ -1,0 +1,332 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.carrey.e_bus_home.ViewPagerWithIndicator
+        android:id="@+id/home_vp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:id="@+id/home_function_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bc1"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/M">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/L"
+            android:paddingRight="@dimen/L"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/home_function_ll1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/M"
+                android:paddingTop="@dimen/M">
+
+                <include
+                    layout="@layout/item_home_function"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!--<View
+                android:layout_width="@dimen/divider_line_thickness"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/XL"
+                android:layout_marginTop="@dimen/XL"
+                android:background="@color/dc1" />-->
+
+            <LinearLayout
+                android:id="@+id/home_function_ll2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/M"
+                android:paddingTop="@dimen/M">
+
+                <include
+                    layout="@layout/item_home_function"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!--<View
+                android:layout_width="@dimen/divider_line_thickness"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/XL"
+                android:layout_marginTop="@dimen/XL"
+                android:background="@color/dc1" />-->
+
+            <LinearLayout
+                android:id="@+id/home_function_ll3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/M"
+                android:paddingTop="@dimen/M">
+
+                <include
+                    layout="@layout/item_home_function"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!--<View
+                android:layout_width="@dimen/divider_line_thickness"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/XL"
+                android:layout_marginTop="@dimen/XL"
+                android:background="@color/dc1" />-->
+
+            <LinearLayout
+                android:id="@+id/home_function_ll4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/M"
+                android:paddingTop="@dimen/M">
+
+                <include
+                    layout="@layout/item_home_function"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--<View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_line_thickness"
+            android:layout_marginLeft="@dimen/XL"
+            android:layout_marginRight="@dimen/XL"
+            android:background="@color/dc1" />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/L"
+            android:paddingRight="@dimen/L"
+            android:paddingBottom="@dimen/M"
+            android:paddingTop="@dimen/M">
+
+            <LinearLayout
+                android:id="@+id/home_function_ll5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/M"
+                android:paddingTop="@dimen/M">
+
+                <include
+                    layout="@layout/item_home_function"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!--<View
+                 android:layout_width="@dimen/divider_line_thickness"
+                 android:layout_height="match_parent"
+                 android:layout_marginBottom="@dimen/XL"
+                 android:layout_marginTop="@dimen/XL"
+                 android:background="@color/dc1" />-->
+
+            <LinearLayout
+                android:id="@+id/home_function_ll6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/M"
+                android:paddingTop="@dimen/M">
+
+                <include
+                    layout="@layout/item_home_function"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!--<View
+                android:layout_width="@dimen/divider_line_thickness"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/XL"
+                android:layout_marginTop="@dimen/XL"
+                android:background="@color/dc1" />-->
+
+            <LinearLayout
+                android:id="@+id/home_function_ll7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/M"
+                android:paddingTop="@dimen/M">
+
+                <include
+                    layout="@layout/item_home_function"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!--<View
+                android:layout_width="@dimen/divider_line_thickness"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/XL"
+                android:layout_marginTop="@dimen/XL"
+                android:background="@color/dc1" />-->
+
+            <LinearLayout
+                android:id="@+id/home_function_ll8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/M"
+                android:paddingTop="@dimen/M">
+
+                <include
+                    layout="@layout/item_home_function"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_line_thickness"
+        android:background="@color/dc2" />
+
+    <LinearLayout
+        android:id="@+id/home_schedule_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/L"
+        android:background="@color/bc1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/home_schedule_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/L"
+            android:paddingLeft="@dimen/XL"
+            android:paddingRight="@dimen/XL"
+            android:paddingTop="@dimen/L"
+            android:text="健康日程管理"
+            android:textColor="@color/tc6"
+            android:textSize="@dimen/text_size_16" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_line_thickness"
+            android:layout_marginLeft="@dimen/XL"
+            android:layout_marginRight="@dimen/XL"
+            android:background="@color/dc1" />
+
+        <LinearLayout
+            android:id="@+id/home_schedule_ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/L"
+            android:paddingLeft="@dimen/XL"
+            android:paddingRight="@dimen/XL"
+            android:paddingTop="@dimen/L">
+
+            <TextView
+                android:id="@+id/home_schedule_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="7:30"
+                android:textColor="@color/tc5"
+                android:textSize="@dimen/text_size_16" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/home_schedule_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="早餐"
+                    android:textColor="@color/tc10"
+                    android:textSize="@dimen/text_size_16" />
+
+                <TextView
+                    android:id="@+id/home_schedule_tips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/M"
+                    android:gravity="center_vertical"
+                    android:text="美好的早餐是一天的开始"
+                    android:textColor="@color/tc5"
+                    android:textSize="@dimen/text_size_16" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"  />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_line_thickness"
+            android:background="@color/dc2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/home_article_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/L"
+        android:background="@color/bc1"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/XL"
+        android:paddingRight="@dimen/XL">
+
+        <TextView
+            android:id="@+id/home_article_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/L"
+            android:paddingTop="@dimen/L"
+            android:text="健康资讯"
+            android:textColor="@color/tc6"
+            android:textSize="@dimen/text_size_16" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/divider_line_thickness"
+            android:background="@color/dc1" />
+    </LinearLayout>
+</LinearLayout>

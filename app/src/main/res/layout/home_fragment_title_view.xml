@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 首页头部-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_title_root_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/home_title_view_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerInside" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/search_background"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="@dimen/dp5"
+        android:visibility="visible"
+        android:weightSum="100">
+
+        <ImageView
+            android:id="@+id/scanner_icon_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="@dimen/dp5"
+            android:layout_weight="2.5"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home_scanner_icon" />
+
+        <View
+            android:layout_width="@dimen/dp1"
+            android:layout_height="@dimen/dp20"
+            android:layout_gravity="center_vertical"
+            android:background="#b4b4b4" />
+
+        <RelativeLayout
+            android:id="@+id/home_title_view_search_rl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="95">
+
+            <TextView
+                android:id="@+id/home_search_btn"
+                style="@style/index_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="@dimen/dp10"
+                android:layout_marginTop="@dimen/dp10"
+                android:drawableLeft="@null"
+                android:drawablePadding="0dp"
+                android:gravity="center"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/search_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dp3"
+                    android:gravity="center_vertical"
+                    android:text="search"
+                    android:textColor="#cccccc"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="@dimen/dp1"
+            android:layout_height="@dimen/dp20"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentLeft="true"
+            android:background="#b4b4b4" />
+
+         <RelativeLayout
+            android:id="@+id/message_box_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/message_box_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dp10"
+                android:layout_marginRight="@dimen/dp5"
+                android:scaleType="fitCenter"
+                android:src="@drawable/icon_message_box" />
+
+            <ImageView
+                android:id="@+id/message_box_btn_red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dp5"
+                android:layout_marginRight="@dimen/dp5"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon_message_box_red"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

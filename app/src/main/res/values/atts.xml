@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BaseRecyclerView">
+        <attr name="android:divider"/>
+        <attr name="android:dividerHeight"/>
+        <attr name="android:listSelector"/>
+        <attr name="recyclerStyle">
+            <enum name="list" value="0"></enum>
+            <enum name="grid" value="1"></enum>
+            <enum name="staggered_grid" value="2"></enum>
+        </attr>
+        <attr name="android:orientation"/>
+        <attr name="android:numColumns"/>
+        <attr name="android:verticalSpacing"/>
+        <attr name="android:horizontalSpacing"/>
+    </declare-styleable>
+    <!-- 自定义圆点  -->
+    <declare-styleable name="CustomIndicator">
+        <attr name="count" format="integer"/>
+        <attr name="width" format="dimension"/>
+        <attr name="height1" format="dimension"/>
+        <attr name="margin" format="dimension"/>
+        <attr name="normal_icon" format="reference"/>
+        <attr name="selected_icon" format="reference"/>
+    </declare-styleable>
+</resources>

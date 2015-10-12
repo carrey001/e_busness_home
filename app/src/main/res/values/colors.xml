@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tutorial_indicator_selected">#888</color>
+    <color name="bc_tutorial">#3fafff</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="transparent">#00000000</color>
+
+
+    <!-- 背景色 -->
+    <color name="bc1">#ffffff</color>
+    <color name="bc2">#f4f4f4</color>
+    <color name="bc3">#f4f4f4</color>
+    <color name="bc4">#64b4ff</color>
+    <color name="bc5">#3296ff</color>
+    <color name="bc6">#f14637</color>
+    <color name="bc7">#f37355</color>
+    <color name="bc8">#00bfbd</color>
+    <color name="bc9">#00bf75</color>
+    <color name="bc10">#4fa5e1</color>
+    <color name="bc11">#d359ac</color>
+    <color name="bc12">#fdc0af</color>
+    <color name="bc13">#fbdb5b</color>
+
+    <!-- 分割线 -->
+    <color name="dc1">#dddddd</color>
+    <color name="dc2">#cccccc</color>
+    <color name="dc3">#ececec</color>
+    <color name="dc4">#f4f4f4</color>
+
+    <!-- 通用分割线 便于与UI规范冲突时统一替换 -->
+    <color name="divider_color">#dddddd</color>
+
+    <!-- 文字颜色 -->
+    <color name="tc1">#ffffff</color>
+    <color name="tc2">#cccccc</color>
+    <color name="tc3">#bbbbbb</color>
+    <color name="tc4">#999999</color>
+    <color name="tc5">#666666</color>
+    <color name="tc6">#333333</color>
+    <color name="tc7">#ff7a51</color>
+    <color name="tc8">#3296ff</color>
+    <color name="tc9">#24c093</color>
+    <color name="tc10">#64b4ff</color>
+    <color name="tc11">#79b4ff</color>
+    <!--add文字颜色-->
+    <color name="tc_then1">#3b9cd1</color>
+    <color name="tc_then2">#9c7407</color>
+    <color name="tc_then3">#3e99ef</color>
+    <color name="tc_then4">#ff9b7d</color>
+    <color name="tc_then5">#1c7cd7</color>
+    <color name="tc_then6">#ff9668</color>
+    <color name="tc_then7">#1c7cd7</color>
+
+    <!-- 图标颜色 -->
+    <color name="ic1">#ffffff</color>
+    <color name="ic2">#dfdfdd</color>
+    <color name="ic3">#999999</color>
+    <color name="ic4">#64b4ff</color>
+    <color name="ic5">#499eef</color>
+    <color name="ic6">#ff906e</color>
+    <color name="ic7">#44d2aa</color>
+
+
+    <!--add颜色-->
+    <color name="ic_then1">#339966</color>
+    <color name="ic_then2">#ececec</color>
+    <color name="ic_then3">#e0e0e0</color>
+    <color name="ic_then4">#f7f7f7</color>
+    <color name="ic_then5">#31d1a2</color>
+    <color name="ic_then6">#ff9678</color>
+    <color name="ic_then7">#f1f1f1</color>
+
+    <!-- TODO:准备删除-->
+    <color name="orange">#FFA500</color>
+    <!-- 随访状态红-->
+    <color name="followup_red">#FF3232</color>
+
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="viewfinder_corner">#64B4FF</color>
+</resources>
